@@ -54,33 +54,46 @@ while amigo[vida]>0 and inimigo[vida]>0:
     Seu oponente esta com {1} de Vida
     """.format(amigo[vida],inimigo[vida]))
     AcaoAmigo =int(input("""
-        Escolha:
-            0 - atacar
-            1 - defender
-            2 - tentar fugir
+        Você...
+            0 - ataca
+            1 - defende
+            2 - tenta fugir
             <>"""))
     if AcaoAmigo<0 or AcaoAmigo>2:
         slow_type("""
-    Digite um comando valido""")
+   Como você é engraçado
+   Eu tambem sei ser engraçado 
+   Você perdeu seu turno""")
 
     elif AcaoAmigo == 0:
+        slow_type("""
+        
+        Você Escolheu atacar""")
         if AcaoInimigo ==1:
             if amigo[poder]>=inimigo[defesa]:
                 inimigo[vida] += inimigo[defesa] - amigo[poder]
                 slow_type("""
-    Você tirou {} de Vida do seu oponente""".format(amigo[poder]-inimigo[defesa]))
+    Você causou {} de dano em seu oponente """.format(amigo[poder]-inimigo[defesa]))
         else:
             inimigo[vida]+= -amigo[poder]
             slow_type("""
-    Você tirou {} de Vida""".format(amigo[poder]))
+    Você causou {} de dano em seu oponente""".format(amigo[poder]))
+    elif AcaoAmigo == 1:
+        slow_type("""
+        
+                  Você escolheu Defender""")
             
     if AcaoAmigo == 2:
         Fugir = randint(1,10)
         if Fugir > 9:
             slow_type("""
+            
         Voce fugiu da batalha
         """)
             break
+        slow_type("""
+        
+        Você não conseguiu fugir""")
             
     
         
@@ -89,6 +102,15 @@ while amigo[vida]>0 and inimigo[vida]>0:
         AcaoInimigo =randint(0,2)
     else:
         AcaoInimigo =randint(0,1)
+    if AcaoInimigo == 0:
+        slow_type("""
+        
+        Seu oponente usou Atacar""")
+    elif AcaoInimigo == 1:
+        slow_type("""
+        
+        Seu oponente usou Defesa""")
+    
     if AcaoInimigo == 0:
         if AcaoAmigo ==1:
             if inimigo[poder]>=amigo[defesa]:
@@ -103,8 +125,11 @@ while amigo[vida]>0 and inimigo[vida]>0:
             Fugir = randint(1,10)
             if Fugir > 9:
                 slow_type("""
-        O oponente fugio da batalha
+        O oponente fugiu da batalha
         """)
+            else:
+                slow_type("""
+                Seu oponente tentou fugir""")
                 break
 if amigo[vida]<=0:
     slow_type("""
@@ -113,8 +138,8 @@ if amigo[vida]<=0:
     """)
 if inimigo[vida]<=0:
     slow_type("""
-    Você matou o seu inimigo!!
-    Você Ganhou a batalha.
+    Você derrotou seu oponente!!
+       Mais um conquista !!!
     """)
 
 
