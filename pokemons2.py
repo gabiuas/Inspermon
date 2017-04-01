@@ -18,39 +18,52 @@ vida="vida"
 poder="poder"
 defesa="defesa"
 
-
-slow_type("""
+x=0
+while x<1:
+    
+    slow_type("""
     Escolha o Inspermon que você quer invocar:""")
-seu_amigo = int(input("""
+    seu_amigo = int(input("""
           0 - Pikachu
           1 - Charmander
           2 - Pidijey
           <>"""))
 #Definição Inspermons
-amigo=inspermons_amigos[seu_amigo]
-inimigo=inspermons_inimigos[randint(0,2)]
+    if seu_amigo<0 or seu_amigo>2:
+        slow_type("""
+    Digite um comando valido
+    """)
+    else:
+        amigo=inspermons_amigos[seu_amigo]
+        inimigo=inspermons_inimigos[randint(0,2)]
+        x=1
     
 slow_type("""
 
     Você invocou o:
     {0}
     ...
-    Você irá batalhar com o {1}""".format(amigo[nome], inimigo[nome]))
+    Você irá batalhar contra um {1}""".format(amigo[nome], inimigo[nome]))
 #Atributos do seu pokemon
 
 AcaoInimigo=3
 while amigo[vida]>0 and inimigo[vida]>0:
     slow_type("""
 
-    Sua vida é {0}
-    A vida de seu oponente é {1}""".format(amigo[vida],inimigo[vida]))
+    Seu Inspermon esta com {0} de Vida
+    Seu oponente esta com {1} de Vida
+    """.format(amigo[vida],inimigo[vida]))
     AcaoAmigo =int(input("""
         Escolha:
             0 - atacar
             1 - defender
             2 - tentar fugir
             <>"""))
-    if AcaoAmigo == 0:
+    if AcaoAmigo<0 or AcaoAmigo>2:
+        slow_type("""
+    Digite um comando valido""")
+
+    elif AcaoAmigo == 0:
         if AcaoInimigo ==1:
             if amigo[poder]>=inimigo[defesa]:
                 inimigo[vida] += inimigo[defesa] - amigo[poder]
@@ -65,7 +78,8 @@ while amigo[vida]>0 and inimigo[vida]>0:
         Fugir = randint(1,10)
         if Fugir > 9:
             slow_type("""
-        Voce fugiu da batalha""")
+        Voce fugiu da batalha
+        """)
             break
             
     
@@ -89,16 +103,19 @@ while amigo[vida]>0 and inimigo[vida]>0:
             Fugir = randint(1,10)
             if Fugir > 9:
                 slow_type("""
-        O oponente fugio da batalha""")
+        O oponente fugio da batalha
+        """)
                 break
 if amigo[vida]<=0:
     slow_type("""
     Seu Pokemon morreu...
-    Você perdeu a batalha.""")
+    Você perdeu a batalha.
+    """)
 if inimigo[vida]<=0:
     slow_type("""
     Você matou o seu inimigo!!
-    Você Ganhou a batalha.""")
+    Você Ganhou a batalha.
+    """)
 
 
                 
