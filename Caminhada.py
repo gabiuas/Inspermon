@@ -1,8 +1,6 @@
-import sys,time
+import sys,time,os
 from random import randint
-Quebra= 0
-Decisao=0
-Chance_de_achar = 0
+
 def slow_type(t):
         for l in t:
             sys.stdout.write(l)
@@ -12,43 +10,61 @@ def fast_type(t):
         for l in t:
             sys.stdout.write(l)
             sys.stdout.flush()
-            time.sleep(0.000000000001)            
-while Quebra!=1:
-    Decisao = 0
-    Quebra = 0
-    
-    while True:
+            time.sleep(0.001)    
+
+def clear():
+    time.sleep(1)
+    os.system('clear')    
+
+
+Decisao=0
+Chance_de_achar =randint(1,4)
+clear()
+
+while True:
             
-        slow_type(""" 
+    slow_type(""" 
    Você decide:
    1 - Andar
    0 - Dormir""")
-        Decisao = int(input("   <>"))
-        break
+    Decisao = int(input("""
+    <> """))
     
     if Decisao == 0:
+        slow_type("""
+        Boa noite!
+        Esperamos que você volte!
+        """)
         break
-                    
+
+    clear()                   
     slow_type("""
-                  <>Você decidiu caminhar<>""")
+                <>Você decidiu caminhar<>""")
     
-        
+     
     fast_type("""
-                      oooO
-         @           (....).... Oooo....          @
-         @           .\..(.....(....)...          @
-         @           ..\_)..... )../....          @
-         @           .......... (_/.....          @
-         @            oooO                        @
-         @           (....)....Oooo.....          @
-         @           .\..(.....(....)...          @
-         @           ..\_)..... )../....          @
-         @           ...........(_/.....          @
+
+                  ....................         
+                  ...oooO.............         
+                  ..(    ).... Oooo...         
+                  ...\  (.....(    )..         
+                  ....\_)..... )  /...         
+                  ............ (_/....         
+                  .. oooO ............         
+                  ..(    )....Oooo....         
+                  ...\  (.....(    )..         
+                  ....\_)..... )  /...         
+                  .............(_/....         
+                  ....................         
         """ )
         
-    Chance_de_achar =2 #randint(1,2)
     if Chance_de_achar == 1:
-        slow_type("Você não achou nenhum inspermon")
+        slow_type("""
+              Você não achou nenhum inspermon""")
+
     else:
         import pokemons2
+        continue
+
+
         
