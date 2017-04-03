@@ -8,7 +8,7 @@
 	},
 	{
 		"nome" : "Charmander",
-		"nome_poder": "Fogo",
+		"nome_poder": "Calda Flamejante",
 		"poder" : 25,
 		"vida" : 300,
 		"defesa" : 10
