@@ -63,7 +63,7 @@ while True:
               Você não achou nenhum inspermon""")
 
     else:
-        import pokemons2
+        import batalha
         continue
 
 
