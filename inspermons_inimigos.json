@@ -1,18 +1,21 @@
 [
 	{
 		"nome" : "Pikachu",
+		"nome_poder": "Raio",
 		"poder" : 40,
 		"vida" : 200,
 		"defesa" : 12
 	},
 	{
 		"nome" : "Charmander",
+		"nome_poder": "Fogo",
 		"poder" : 25,
 		"vida" : 300,
 		"defesa" : 10
 	},
 	{
-		"nome" : "Pidijey",
+		"nome" : "Pidgey",
+		"nome_poder": "Rajada de vento",
 		"poder" : 15,
 		"vida" : 100,
 		"defesa" : 10
