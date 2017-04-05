@@ -11,7 +11,7 @@ def slow_type(t):
 
 
 def clear1():
-    time.sleep(3)
+    time.sleep(2)
     os.system('clear')
 
 def clear():
@@ -197,24 +197,24 @@ while amigo[vida]>0 and inimigo[vida]>0:
                 break
 
     if AcaoAmigo == 2:
-            Fugir = randint(1,10)
-            if Fugir > 9:
+        Fugir = randint(1,10)
+        if Fugir > 9:
+            clear()
+            slow_type("""
+        Você fugiu da batalha""")
+            break
+        else:
+            if AcaoInimigo==0:
+                amigo[vida]+= -inimigo[poder]
                 clear()
                 slow_type("""
-        Você fugiu da batalha""")
-                break
-            else:
-                if AcaoInimigo==0:
-                    amigo[vida]+= -inimigo[poder]
-                    clear()
-                    slow_type("""
     Você tentou fugir, mas não teve sucesso.""")
-                    clear()
-                    slow_type("""
+                clear()
+                slow_type("""
     O {0} adversario usou {1}""".format(inimigo[nome],inimigo[nome_poder]))
                     
-                    clear()
-                    slow_type("""
+                clear()
+                slow_type("""
     Você recebeu {} de dano do seu oponente""".format(inimigo[poder]))
                 
 
