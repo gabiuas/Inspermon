@@ -17,4 +17,5 @@ def clear():
 
 clear()
 slow_type("""
-	Programa em desenvolvimento""")
+	Programa em desenvolvimento
+    """)
