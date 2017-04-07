@@ -14,7 +14,7 @@ def fast_type(t):
 
 def clear():
     time.sleep(1)
-    os.system('clear')    
+    os.system("cls")    
 
 
 Decisao1=0
