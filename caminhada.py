@@ -1,5 +1,8 @@
 import sys,time,os
 from random import randint
+import tkinter as tk
+
+
 
 def slow_type(t):
         for l in t:
@@ -14,7 +17,7 @@ def fast_type(t):
 
 def clear():
     time.sleep(1)
-    os.system("cls")    
+    os.system('cls')
 
 
 Decisao1=0
