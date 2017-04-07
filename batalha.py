@@ -12,11 +12,11 @@ def slow_type(t):
 
 def clear1():
     time.sleep(2)
-    os.system('clear')
+    os.system('cls')
 
 def clear():
     time.sleep(1)
-    os.system('clear')
+    os.system('cls')
     
 
 
@@ -59,7 +59,7 @@ while x<1:
     Você escolheu o {}""".format(amigo[nome]))
         x=1
 
-clear()    
+
 slow_type("""
     Vai {0}!""".format(amigo[nome]))
 
@@ -87,7 +87,7 @@ while amigo[vida]>0 and inimigo[vida]>0:
 
     if AcaoAmigo<0 or AcaoAmigo>2:
         
-        clear()
+
         slow_type("""
    Como você é engraçado
    Eu tambem sei ser engraçado 
@@ -99,54 +99,65 @@ while amigo[vida]>0 and inimigo[vida]>0:
 
     Você Escolheu atacar""")
 
-        clear()
-        slow_type("""
-    {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
-        
+
+
         if AcaoInimigo==0:
             inimigo[vida]+= -amigo[poder]
             amigo[vida]+= -inimigo[poder]
-            clear()
+
+            slow_type("""
+    O oponente escolheu atacar""")
+
+            slow_type("""
+    {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
+
+            slow_type("""
+    O {0} adversario usou {1}
+    """.format(inimigo[nome],inimigo[nome_poder]))
+
             slow_type("""
     Você causou {} de dano em seu oponente""".format(amigo[poder]))
             
-            clear()
-            slow_type("""
-        O {0} adversario usou {1}
-        """.format(inimigo[nome],inimigo[nome_poder]))
-            clear()
+
+
             slow_type("""
     Você recebeu {} de dano do seu oponente""".format(inimigo[poder]))
 
         if AcaoInimigo ==1:
             if amigo[poder]>inimigo[defesa]:
                 inimigo[vida] += inimigo[defesa] - amigo[poder]
-                clear()
+
+
+                slow_type("""
+    O oponente escolheu defender""")
+
+                slow_type("""
+    {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
+
+
                 slow_type("""
     Seu oponente defendeu parcialmente seu ataque.""")
-                clear()
                 slow_type("""
     Você causou {} de dano em seu oponente """.format(amigo[poder]-inimigo[defesa]))
             
             if inimigo[defesa]>=amigo[poder]:
-                clear()
+
                 slow_type("""
     Seu oponente defendeu seu ataque.""")
         
         if AcaoInimigo == 2:
             Fugir = randint(1,10)
             if Fugir > 9:
-                clear()
-                slow_type("""
+                               slow_type("""
         O oponente fugiu da batalha
         """)
             else:
-                clear()
+
                 slow_type("""
         Seu oponente tentou fugir
         """)
                 inimigo[vida]+= -amigo[poder]
-                clear()
+
                 slow_type("""
     Você causou {} de dano em seu oponente""".format(amigo[poder]))
                 break
@@ -158,22 +169,24 @@ while amigo[vida]>0 and inimigo[vida]>0:
 
         if AcaoInimigo==0:
 
-            clear()
+            slow_type("""
+    O oponente escolheu atacar""")
+
+
             slow_type("""
         O {0} adversario usou {1}
         """.format(inimigo[nome],inimigo[nome_poder]))
             if inimigo[poder]>amigo[defesa]:
                 amigo[vida] += amigo[defesa] - inimigo[poder]
-                clear()
+
                 slow_type("""
     Você defendeu parcialmente o ataque do seu inimigo.""")
                 
-                clear()
                 slow_type("""
     Você recebeu {} de dano do seu oponente""".format(inimigo[poder]))
 
             if amigo[defesa]>=inimigo[poder]:
-                clear()
+
                 slow_type("""
     Você defendeu o ataquedo seu oponente.""")
             
@@ -185,12 +198,12 @@ while amigo[vida]>0 and inimigo[vida]>0:
         if AcaoInimigo == 2:
             Fugir = randint(1,10)
             if Fugir > 9:
-                clear()
+
                 slow_type("""
         O oponente fugiu da batalha
         """)
             else:
-                clear()
+
                 slow_type("""
         Seu oponente tentou fugir
         """)
@@ -199,21 +212,23 @@ while amigo[vida]>0 and inimigo[vida]>0:
     if AcaoAmigo == 2:
         Fugir = randint(1,10)
         if Fugir > 9:
-            clear()
+
             slow_type("""
         Você fugiu da batalha""")
             break
         else:
             if AcaoInimigo==0:
                 amigo[vida]+= -inimigo[poder]
-                clear()
                 slow_type("""
     Você tentou fugir, mas não teve sucesso.""")
-                clear()
+
+                slow_type("""
+    O oponente escolheu atacar""")
+
                 slow_type("""
     O {0} adversario usou {1}""".format(inimigo[nome],inimigo[nome_poder]))
                     
-                clear()
+
                 slow_type("""
     Você recebeu {} de dano do seu oponente""".format(inimigo[poder]))
                 
