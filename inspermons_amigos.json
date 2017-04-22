@@ -1,23 +1,26 @@
 [
-	{
+
+	[{
 		"nome" : "Pikachu",
-		"nome_poder": "Raio",
-		"poder" : 40,
-		"vida" : 200,
-		"defesa" : 12
+		"nome_poder": "Thunder Jolt",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":2,
+		"poder" : 30,
+		"defesa" : 14
 	},
 	{
-		"nome" : "Charmander",
-		"nome_poder": "Calda Flamejante",
-		"poder" : 25,
-		"vida" : 300,
-		"defesa" : 10
-	},
-	{
-		"nome" : "Pidgey",
-		"nome_poder": "Rajada de vento",
-		"poder" : 15,
-		"vida" : 100,
-		"defesa" : 10
-	}
+		"nome" : "Raiochu",
+		"nome_poder": "Thunder",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":4,
+		"poder" : 60,
+		"defesa" : 27
+	}]
+
 ]
