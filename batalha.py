@@ -7,7 +7,7 @@ def slow_type(t):
     for l in t:
         sys.stdout.write(l)
         sys.stdout.flush()
-        time.sleep(0.067)
+        time.sleep(0.065)
 
 
 def clear1():
@@ -17,56 +17,122 @@ def clear1():
 def clear():
     time.sleep(1)
     os.system('cls')
-    
+
+def esperar():
+    time.sleep(3)
+
+
+
+
 
 
 with open("inspermons_amigos.json","r") as inspermons_amigos:
     inspermons_amigos = json.load(inspermons_amigos)
 with open("inspermons_inimigos.json","r") as inspermons_inimigos:
-    inspermons_inimigos = json.load(inspermons_inimigos)    
+    inspermons_inimigos = json.load(inspermons_inimigos)
+with open("insperdex.json","r") as insperdex:
+    insperdex = json.load(insperdex)
     
 amigo=0
 nome="nome"
 vida="vida"
+vida_maxima="vida_maxima"
 poder="poder"
 defesa="defesa"
 nome_poder="nome_poder"
+xp="xp"
+nivel="nivel"
 
-ii=randint(0,2)
-inimigo=inspermons_inimigos[ii]
+
+
+y=len(inspermons_amigos)
+
+
 
 slow_type("""
-             Um {} selvagem apareceu!""".format(inimigo[nome]))
+             Um Inspermon selvagem apareceu!""")
+
+
+#Definição Inspermon
+
 x=0
 while x<1:
 
     clear1()
     slow_type("""
-    Escolha o Inspermon que você quer usar para batalhar:""")
-    seu_amigo = int(input("""
-          0 - Pikachu
-          1 - Charmander
-          2 - Pidgey
-          <>"""))
+    Escolha o Inspermon que você quer usar para batalhar:
 
-#Definição Inspermons
-    if seu_amigo<0 or seu_amigo>2:
+""")
+
+    i=0
+    while i< len(inspermons_amigos):
+
+        n=0
+        if len(inspermons_amigos[i])>n+1:
+            if inspermons_amigos[i][n][nivel] > 5:
+                n+=1
+
+                if len(inspermons_amigos[i])>n+1:
+                    if inspermons_amigos[i][n][nivel] > 5:
+                        n+=1
+
+        print("""        {0} - {1}""".format(i, inspermons_amigos[i][n][nome]))
+        i+=1
+
+
+
+
+
+
+    seu_amigo = int(input("""         <>"""))
+
+    if seu_amigo<0 or seu_amigo>=i:
         slow_type("""
     Digite um comando valido""")
     else:
-        amigo=inspermons_amigos[seu_amigo]
+        n=0
+        if inspermons_amigos[seu_amigo][n][nivel] > 5:
+            n+=1
+            if inspermons_amigos[seu_amigo][n][nivel] > 5:
+                n+=1
+        amigo=inspermons_amigos[seu_amigo][n]
+
+    if amigo[vida]<=0:
+        slow_type("""
+    Este inspermon esta sem vida, vá até a Enfermaria para recupera-lo!""")
+        esperar()
+        sys.exit()
+
+    else:
+
         slow_type("""
     Você escolheu o {}""".format(amigo[nome]))
         x=1
 
 
-slow_type("""
+        slow_type("""
     Vai {0}!""".format(amigo[nome]))
 
 
-#Atributos do seu pokemon
+
+#Definicao inimigo
+    ii=randint(0,38)
+    inimigo=inspermons_inimigos[ii][n]
+
+    slow_type("""
+
+        Seu adversario é o {}""".format(inimigo[nome]) )
+
+
+#Experiência
+pontos_ganhos=inimigo[nivel]*10
+
+
+#Batalha
 
 while amigo[vida]>0 and inimigo[vida]>0:
+
+    sorte=randint(0,10)
     
     clear()
     slow_type("""
@@ -78,9 +144,9 @@ while amigo[vida]>0 and inimigo[vida]>0:
             0 - Ataca
             1 - Defende
             2 - Tenta fugir
-            <>"""))
+             <>"""))
 
-    if inimigo[vida] < 0.1*inimigo[vida]:
+    if inimigo[vida] < 0.2*inimigo[vida]:
         AcaoInimigo =randint(0,2)
     else:
         AcaoInimigo =randint(0,1)
@@ -99,8 +165,18 @@ while amigo[vida]>0 and inimigo[vida]>0:
 
     Você Escolheu atacar""")
 
-
-
+        if sorte==10:
+            amigo[poder]=amigo[poder]-amigo[poder]//10
+            slow_type("""
+    Por escolha do destino seu ataque diminuiu 1/10
+    Seu novo ataque causa {} de dano
+    """.format(amigo[poder]))
+        if sorte==9:
+            amigo[poder]=amigo[poder]+amigo[poder]//10
+            slow_type("""
+    Por escolha do destino seu ataque aumentou 1/10
+    Seu novo ataque causa {} de dano
+    """.format(amigo[poder]))
         if AcaoInimigo==0:
             inimigo[vida]+= -amigo[poder]
             amigo[vida]+= -inimigo[poder]
@@ -109,7 +185,7 @@ while amigo[vida]>0 and inimigo[vida]>0:
     O oponente escolheu atacar""")
 
             slow_type("""
-    {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
+    Seu {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
 
             slow_type("""
     O {0} adversario usou {1}
@@ -132,11 +208,11 @@ while amigo[vida]>0 and inimigo[vida]>0:
     O oponente escolheu defender""")
 
                 slow_type("""
-    {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
+    Seu {0} usou {1}""".format(amigo[nome],amigo[nome_poder]))
 
 
                 slow_type("""
-    Seu oponente defendeu parcialmente seu ataque.""")
+    Seu oponente defendeu parcialmente seu ataque""")
                 slow_type("""
     Você causou {} de dano em seu oponente """.format(amigo[poder]-inimigo[defesa]))
             
@@ -217,6 +293,7 @@ while amigo[vida]>0 and inimigo[vida]>0:
         Você fugiu da batalha""")
             break
         else:
+            AcaoInimigo=0
             if AcaoInimigo==0:
                 amigo[vida]+= -inimigo[poder]
                 slow_type("""
@@ -241,41 +318,48 @@ if amigo[vida]<=0:
 
     Você perdeu a batalha.
     """)
+
+
 if inimigo[vida]<=0:
+
     clear()
+    amigo[xp]+=pontos_ganhos
+    amigo[nivel]=amigo[xp]//100
+
     slow_type("""
     O inimigo {0} Morreu!!
-    {1} ganhou {2} pontos de EXP.
+    Seu {1} ganhou {2} pontos de EXP
+    Seu inspermon esta no nivel {3}
     Mais um conquista !!!
-    """.format(inimigo[nome],amigo[nome],(inimigo[vida]*0.1)))
+    """.format(inimigo[nome],amigo[nome],pontos_ganhos,amigo[nivel]))
 
 
 
+    if amigo[nivel]>5:
+        slow_type("""
+    Parabéns, seu inspermon evoluiu!""")
 
+    inimigo[vida]=0
+    inspermons_amigos.append(inspermons_inimigos[ii])
+    slow_type("""
+    Você capturou mais um inspermon!!!
+    Mas infelizmente ele voltou para o sua evolução básica""")
+    with open("inspermons_amigos.json", "w") as arquivo:
+        json.dump(inspermons_amigos, arquivo)
 
+  
+insperdex.append(inspermons_inimigos[ii])
 
+clear()
+slow_type("""
+    Deseja salvar o seu progresso?
+    1 - Sim
+    0 - Não""")
+salvar = int(input("""
+     <>"""))
+if salvar == 1:
+    with open("inspermons_amigos.json", "w") as arquivo:
+        json.dump(inspermons_amigos, arquivo)
+    with open("insperdex.json", "w") as arquivo:
+        json.dump(insperdex, arquivo)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
