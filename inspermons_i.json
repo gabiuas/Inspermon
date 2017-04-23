@@ -1,6 +1,4 @@
-[
-
-	[{
+[[{
 		"nome" : "Bixo",
 		"nome_poder": "Um ataque burro",
 		"nivel":1,
@@ -402,6 +400,5 @@
 		"custo":4,
 		"poder" : 40,
 		"defesa" : 30
-	}]
-					]
+	}]]
 
