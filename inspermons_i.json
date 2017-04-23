@@ -204,7 +204,7 @@
 	},
 	{
 		"nome" : "Veterano do 5 semestre",
-		"nome_poder": "LembranÁas de um passado feliz",
+		"nome_poder": "Lembran√ßas de um passado feliz",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -311,7 +311,7 @@
 
 	[{
 		"nome" : "Impressora 3D",
-		"nome_poder": "Rajada de Impressıes mal feitas",
+		"nome_poder": "Rajada de Impress√µes mal feitas",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -403,5 +403,5 @@
 		"poder" : 40,
 		"defesa" : 30
 	}]
-
 					]
+
