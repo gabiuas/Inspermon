@@ -12,11 +12,11 @@ def slow_type(t):
 
 def clear1():
     time.sleep(2)
-    os.system('cls')
+    os.system('clear')
 
 def clear():
     time.sleep(1)
-    os.system('cls')
+    os.system('clear')
 
 def esperar():
     time.sleep(3)
@@ -46,7 +46,7 @@ nivel="nivel"
 
 
 y=len(inspermons_amigos)
-
+j=len(inspermons_inimigos)-1
 
 
 slow_type("""
@@ -116,7 +116,7 @@ while x<1:
 
 
 #Definicao inimigo
-    ii=randint(0,38)
+    ii=randint(0,j)
     inimigo=inspermons_inimigos[ii][n]
 
     slow_type("""
@@ -357,7 +357,7 @@ elif inimigo[vida]<=0:
         json.dump(inspermons_amigos, arquivo)
 
   
-insperdex.append(inspermons_inimigos[ii])
+insperdex.append(inspermons_inimigos[ii][n])
 
 clear()
 slow_type("""
