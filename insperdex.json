@@ -10,6 +10,7 @@
 		"custo":2,
 		"poder" : 30,
 		"defesa" : 14
+
 	},
 	{
 		"nome" : "Luciano",
@@ -22,5 +23,6 @@
 		"poder" : 60,
 		"defesa" : 27
 	}]
+	}
 
 ]

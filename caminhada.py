@@ -157,12 +157,25 @@ while True:
         slow_type("""
     Estes são todos os inspermon com quem lutou
     Se desejar ver a especificação de algum deles
-    Digite o seu número.""")
+    Digite o seu número
+            
+""")
 
-        i=0
+        z=1
+        s=0
         for i in insperdex:
 
-            migo=insperdex[i]
+            print("""        {0} - {1}""".format(z, insperdex[s][nome]))
+        z+=1
+        s+=1
+        m=int(input("         <>"))
+
+        if m == 0:
+            break
+
+        else:
+            clear()
+            migo=insperdex[m-1]
             print("""
 
 
