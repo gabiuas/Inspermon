@@ -18,11 +18,11 @@ def fast_type(t):
 
 def clear():
     time.sleep(1)
-    os.system('cls')
+    os.system('clear')
 
 
 
-def exec():
+def exec_inspermon():
     x = os.system('python inspermons.py')
     return x
 
@@ -166,8 +166,8 @@ while True:
         for i in insperdex:
 
             print("""        {0} - {1}""".format(z, insperdex[s][nome]))
-        z+=1
-        s+=1
+            z+=1
+            s+=1
         m=int(input("         <>"))
 
         if m == 0:
