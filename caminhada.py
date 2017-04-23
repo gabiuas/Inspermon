@@ -9,7 +9,7 @@ def slow_type(t):
         for l in t:
             sys.stdout.write(l)
             sys.stdout.flush()
-            time.sleep(0.00000065)
+            time.sleep(0.065)
 def fast_type(t):
         for l in t:
             sys.stdout.write(l)
