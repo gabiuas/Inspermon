@@ -309,18 +309,27 @@ while amigo[vida]>0 and inimigo[vida]>0:
                 slow_type("""
     Você recebeu {} de dano do seu oponente""".format(inimigo[poder]))
                 
-
-
-if amigo[vida]<=0:
+if amigo[vida]<=0 and  inimigo[vida]<=0:
     clear()
     slow_type("""
-    Seu Pokemon morreu...
+    Ambos inspermons morreram...
+    
+    A batalha terminou em empate
+    """)
+    
+                
+
+
+elif amigo[vida]<=0:
+    clear()
+    slow_type("""
+    Seu inspermon morreu...
 
     Você perdeu a batalha.
     """)
 
 
-if inimigo[vida]<=0:
+elif inimigo[vida]<=0:
 
     clear()
     amigo[xp]+=pontos_ganhos

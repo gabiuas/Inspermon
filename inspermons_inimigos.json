@@ -1,8 +1,8 @@
 [
 
 	[{
-		"nome" : "Pikachu",
-		"nome_poder": "Thunder Jolt",
+		"nome" : "Bixo",
+		"nome_poder": "Um ataque burro",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -12,8 +12,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Raiochu",
-		"nome_poder": "Thunder",
+		"nome" : "Luciano",
+		"nome_poder": "Python",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -24,43 +24,10 @@
 	}],
 
 
-	[{
-		"nome" : "Charmander",
-		"nome_poder": "Ember",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"poder" : 30,
-		"custo":2,
-		"defesa" : 20
-	},
-	{
-		"nome" : "Charmeleon",
-		"nome_poder": "Firethrower",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"poder" : 90,
-		"custo":3,
-		"defesa" : 27
-	},
-	{
-		"nome" : "Chalizard",
-		"nome_poder": "Fire Spin",
-		"nivel":1,
-		"xp":0,
-		"vida" : 150,
-		"vida_maxima" : 150,
-		"poder" : 200,
-		"defesa" : 50
-	}],
-
 
 	[{
-		"nome" : "Pidgey",
-		"nome_poder": "Whirlwind",
+		"nome" : "Fernando",
+		"nome_poder": "Modernidade",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -70,8 +37,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Pidgeotto",
-		"nome_poder": "Whirlwind",
+		"nome" : "Super Fernando",
+		"nome_poder": "Rajada de textos gigantes",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -81,8 +48,8 @@
 		"defesa" : 20
 	},
 	{
-		"nome" : "Pidgeot",
-		"nome_poder": "Whirlwind",
+		"nome" : "Ultra Fernando",
+		"nome_poder": "Mega ultra poderoso Artigo Cientifico",
 		"nivel":1,
 		"xp":0,
 		"vida" : 90,
@@ -93,8 +60,8 @@
 	}],
 
 	[{
-		"nome" : "Squirtle",
-		"nome_poder": "Bubble",
+		"nome" : "Pelicano",
+		"nome_poder": "Rajada de Tubaroes,arraias e vieiras",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -104,8 +71,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Wartortle",
-		"nome_poder": "Bite",
+		"nome" : "Super Pelicano",
+		"nome_poder": "FarmacoThermoCineticoDinamico",
 		"nivel":1,
 		"xp":0,
 		"vida" : 70,
@@ -115,8 +82,8 @@
 		"defesa" : 24
 	},
 	{
-		"nome" : "Blastoise",
-		"nome_poder": "Hydro Pump",
+		"nome" : "Ultra Pelicano",
+		"nome_poder": "Liberdade total",
 		"nivel":1,
 		"xp":0,
 		"vida" : 100,
@@ -128,8 +95,8 @@
 
 
 	[{
-		"nome" : "Bulbassauro",
-		"nome_poder": "Leech Seed",
+		"nome" : "Lab",
+		"nome_poder": "Martelada",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -139,8 +106,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Ivyssauro",
-		"nome_poder": "Vine Whip",
+		"nome" : "Fab lab",
+		"nome_poder": "Cortador laser imprimidor 3d",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -150,8 +117,8 @@
 		"defesa" : 20
 	},
 	{
-		"nome" : "Venossauro",
-		"nome_poder": "Solarbeam",
+		"nome" : "Tech Lab",
+		"nome_poder": "Maquinas fantasticas e onde habitam",
 		"nivel":1,
 		"xp":0,
 		"vida" : 100,
@@ -163,8 +130,8 @@
 
 
 	[{
-		"nome" : "Vulpix",
-		"nome_poder": "Confuse Ray",
+		"nome" : "Carol da Costa",
+		"nome_poder": "Raio da inteligencia",
 		"nivel":1,
 		"xp":0,
 		"vida" : 50,
@@ -174,8 +141,8 @@
 		"defesa" : 17
 	},
 	{
-		"nome" : "Ninetales",
-		"nome_poder": "Fire Blast",
+		"nome" : "Marcos Lisboa",
+		"nome_poder": "Um ataque misteriosamente forte",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -187,8 +154,8 @@
 
 
 	[{
-		"nome" : "Magikarp",
-		"nome_poder": "Flail",
+		"nome" : "Carareto",
+		"nome_poder": "Protoboard",
 		"nivel":1,
 		"xp":0,
 		"vida" : 30,
@@ -198,8 +165,8 @@
 		"defesa" : 10
 	},
 	{
-		"nome" : "Gyrados",
-		"nome_poder": "Bubblebeam/dragon rage",
+		"nome" : "Carareto Super Sayadin",
+		"nome_poder": "Ultra mega Protoboard",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -209,45 +176,9 @@
 		"defesa" : 34
 	}],
 
-
 	[{
-		"nome" : "Machop",
-		"nome_poder": "low kick",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":1,
-		"poder" : 20,
-		"defesa" : 17
-	},
-	{
-		"nome" : "Machoke",
-		"nome_poder": "Submission",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"custo":4,
-		"poder" : 60,
-		"defesa" : 27
-	},
-	{
-		"nome" : "Machamp",
-		"nome_poder": "Seismic Toss",
-		"nivel":1,
-		"xp":0,
-		"vida" : 100,
-		"vida_maxima" : 100,
-		"custo":4,
-		"poder" : 60,
-		"defesa" : 34
-	}],
-
-
-	[{
-		"nome" : "Hitmonchan",
-		"nome_poder": "Special Punch",
+		"nome" : "Sujinho",
+		"nome_poder": "Exercito de bebados ",
 		"nivel":1,
 		"xp":0,
 		"vida" : 70,
@@ -261,8 +192,8 @@
 
 
 	[{
-		"nome" : "Weedle",
-		"nome_poder": "Poison String",
+		"nome" : "Veterano do 3 semestre",
+		"nome_poder": "O Trote",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -272,8 +203,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Kakuna",
-		"nome_poder": "Poisonpowder",
+		"nome" : "Veterano do 5 semestre",
+		"nome_poder": "Lembranças de um passado feliz",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -283,8 +214,8 @@
 		"defesa" : 27
 	},
 	{
-		"nome" : "Beedrill",
-		"nome_poder": "Poison String",
+		"nome" : "Veterano do 7 semestre",
+		"nome_poder": "Aprendizado sagrado",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -296,8 +227,8 @@
 
 
 	[{
-		"nome" : "Nidoran",
-		"nome_poder": "Horn Hazard",
+		"nome" : "Cervejada",
+		"nome_poder": "Ressaca",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -307,8 +238,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Nidorino",
-		"nome_poder": "Horn Drill",
+		"nome" : "Tequilada",
+		"nome_poder": "Mega Ressaca",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -318,8 +249,8 @@
 		"defesa" : 20
 	},
 	{
-		"nome" : "Nidoking",
-		"nome_poder": "Trash",
+		"nome" : "Insperina",
+		"nome_poder": "Ultra Mega Ressaca",
 		"nivel":1,
 		"xp":0,
 		"vida" : 90,
@@ -331,8 +262,8 @@
 
 
 	[{
-		"nome" : "Abra",
-		"nome_poder": "Psyshock",
+		"nome" : "Marcenaria",
+		"nome_poder": "Serrote supremo",
 		"nivel":1,
 		"xp":0,
 		"vida" : 30,
@@ -342,8 +273,8 @@
 		"defesa" : 10
 	},
 	{
-		"nome" : "Kadabra",
-		"nome_poder": "Super Psy",
+		"nome" : "Fresadora",
+		"nome_poder": "Cortes Precisos",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -353,8 +284,8 @@
 		"defesa" : 20
 	},
 	{
-		"nome" : "Alakazam",
-		"nome_poder": "Confuse Ray",
+		"nome" : "Cortadora Laser",
+		"nome_poder": "Super Raio de Luz cortador",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
@@ -366,8 +297,8 @@
 
 
 	[{
-		"nome" : "Chansey",
-		"nome_poder": "Double-edge",
+		"nome" : "Cortadora de adesivos",
+		"nome_poder": "Adesivos Assassinos",
 		"nivel":1,
 		"xp":0,
 		"vida" : 120,
@@ -379,8 +310,8 @@
 
 
 	[{
-		"nome" : "Clefairy",
-		"nome_poder": "Metronome",
+		"nome" : "Impressora 3D",
+		"nome_poder": "Rajada de Impressões mal feitas",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -392,8 +323,8 @@
 
 
 	[{
-		"nome" : "Mew",
-		"nome_poder": "Psywave",
+		"nome" : "Pouf",
+		"nome_poder": "Sono",
 		"nivel":1,
 		"xp":0,
 		"vida" : 50,
@@ -403,8 +334,8 @@
 		"defesa" : 17
 	},
 	{
-		"nome" : "Mewtwo",
-		"nome_poder": "Psychic",
+		"nome" : "Sala de Descanso",
+		"nome_poder": "Dormencia Total",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -416,8 +347,8 @@
 
 
 	[{
-		"nome" : "Magnemite",
-		"nome_poder": "Selfdestruct",
+		"nome" : "Ibmec",
+		"nome_poder": "Raio de aprendizagem",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -427,8 +358,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Magneton",
-		"nome_poder": "Selfdestruct",
+		"nome" : "Insper",
+		"nome_poder": "Ultra Raio de aprendizagem",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -440,8 +371,8 @@
 
 
 	[{
-		"nome" : "Poliwag",
-		"nome_poder": "Water Gun",
+		"nome" : "Protoboard",
+		"nome_poder": "Ataque de Circuitos",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -451,8 +382,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Poliwhirl",
-		"nome_poder": "Doubleslap",
+		"nome" : "Placa",
+		"nome_poder": "Ataque de Circuitos organizados",
 		"nivel":1,
 		"xp":0,
 		"vida" : 60,
@@ -462,8 +393,8 @@
 		"defesa" : 20
 	},
 	{
-		"nome" : "Poliwrath",
-		"nome_poder": "Whirlpool",
+		"nome" : "Arduino UNO",
+		"nome_poder": "O CIRCUITO SUPREMO",
 		"nivel":1,
 		"xp":0,
 		"vida" : 90,
@@ -471,465 +402,5 @@
 		"custo":4,
 		"poder" : 40,
 		"defesa" : 30
-	}],
-
-
-	[{
-		"nome" : "Zapdos",
-		"nome_poder": "Thunderbolt",
-		"nivel":1,
-		"xp":0,
-		"vida" : 90,
-		"vida_maxima" : 90,
-		"custo":4,
-		"poder" : 100,
-		"defesa" : 30
-	}],
-
-
-	[{
-		"nome" : "Dratini",
-		"nome_poder": "Pound",
-		"nivel":1,
-		"xp":0,
-		"vida" : 40,
-		"vida_maxima" : 40,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Dragonair",
-		"nome_poder": "Hyper Beam",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"custo":3,
-		"poder" : 40,
-		"defesa" : 27
-	},
-	{
-		"nome" : "Dragonite",
-		"nome_poder": "Slam",
-		"nivel":1,
-		"xp":0,
-		"vida" : 100,
-		"vida_maxima" : 100,
-		"custo":4,
-		"poder" : 60,
-		"defesa" : 34
-	}],
-
-
-	[{
-		"nome" : "Diglett",
-		"nome_poder": "Mud Slap",
-		"nivel":1,
-		"xp":0,
-		"vida" : 30,
-		"vida_maxima" : 30,
-		"custo":2,
-		"poder" : 30,
-		"defesa" : 10
-	},
-	{
-		"nome" : "Dugtrio",
-		"nome_poder": "Earthquake",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":4,
-		"poder" : 70,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Electrabuzz",
-		"nome_poder": "Thunderpunch",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":2,
-		"poder" : 30,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Voltorb",
-		"nome_poder": "Tackle",
-		"nivel":1,
-		"xp":0,
-		"vida" : 40,
-		"vida_maxima" : 40,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Electrode",
-		"nome_poder": "Eletric shock",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"custo":3,
-		"poder" : 50,
-		"defesa" : 27
-	}],
-
-
-	[{
-		"nome" : "Growlithe",
-		"nome_poder": "Flare",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":2,
-		"poder" : 20,
-		"defesa" : 20
-	},
-	{
-		"nome" : "Arcanine",
-		"nome_poder": "Take Down",
-		"nivel":1,
-		"xp":0,
-		"vida" : 100,
-		"vida_maxima" : 100,
-		"custo":4,
-		"poder" : 80,
-		"defesa" : 34
-	}],
-
-
-	[{
-		"nome" : "Seal",
-		"nome_poder": "Headbutt",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 20
-	},
-	{
-		"nome" : "Dewgong",
-		"nome_poder": "Aurora Beam",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"custo":3,
-		"poder" : 50,
-		"defesa" : 27
-	}],
-
-
-	[{
-		"nome" : "Farfetch'd",
-		"nome_poder": "Pot Smash",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":3,
-		"poder" : 30,
-		"defesa" : 17
-	}],
-
-
-	[{
-		"nome" : "Gastly",
-		"nome_poder": "Destiny Bond",
-		"nivel":1,
-		"xp":0,
-		"vida" : 30,
-		"vida_maxima" : 30,
-		"custo":2,
-		"poder" : 20,
-		"defesa" : 10
-	},
-	{
-		"nome" : "Haunter",
-		"nome_poder": "Dream Eater",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":2,
-		"poder" : 50,
-		"defesa" : 20
-	},
-	{
-		"nome" : "Gendar",
-		"nome_poder": "Dark Mind",
-		"nivel":1,
-		"xp":0,
-		"vida" : 80,
-		"vida_maxima" : 80,
-		"custo":3,
-		"poder" : 70,
-		"defesa" : 27
-	}],
-
-
-	[{
-		"nome" : "Caterpie",
-		"nome_poder": "String Shot",
-		"nivel":1,
-		"xp":0,
-		"vida" : 40,
-		"vida_maxima" : 40,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Metapod",
-		"nome_poder": "Stun Spore",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":2,
-		"poder" : 20,
-		"defesa" : 24
-	},
-	{
-		"nome" : "Butterfree",
-		"nome_poder": "Mega Drain",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":4,
-		"poder" : 40,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Jynx",
-		"nome_poder": "Meditate",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":3,
-		"poder" : 40,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Magmar",
-		"nome_poder": "Flamethrower",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":3,
-		"poder" : 50,
-		"defesa" : 27
-	}],
-
-	[{
-		"nome" : "Porygon",
-		"nome_poder": "Conversion",
-		"nivel":1,
-		"xp":0,
-		"vida" : 30,
-		"vida_maxima" : 30,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 10
-	}],
-
-	[{
-		"nome" : "Drowzee",
-		"nome_poder": "Confuse Ray",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":2,
-		"poder" : 10,
-		"defesa" : 27
-	}],
-
-	[{
-		"nome" : "Onix",
-		"nome_poder": "Harden",
-		"nivel":1,
-		"xp":0,
-		"vida" : 90,
-		"vida_maxima" : 90,
-		"custo":2,
-		"poder" : 40,
-		"defesa" : 30
-	}],
-
-
-	[{
-		"nome" : "Rattata",
-		"nome_poder": "Bite",
-		"nivel":1,
-		"xp":0,
-		"vida" : 30,
-		"vida_maxima" : 30,
-		"custo":1,
-		"poder" : 20,
-		"defesa" : 10
-	},
-	{
-		"nome" : "Raticate",
-		"nome_poder": "Super Fang",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":3,
-		"poder" : 40,
-		"defesa" : 20
-	}],
-
-
-	[{
-		"nome" : "Staryu",
-		"nome_poder": "Slap",
-		"nivel":1,
-		"xp":0,
-		"vida" : 30,
-		"vida_maxima" : 30,
-		"custo":1,
-		"poder" : 20,
-		"defesa" : 10
-	},
-	{
-		"nome" : "Starmie",
-		"nome_poder": "Star Freeze",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":3,
-		"poder" : 20,
-		"defesa" : 20
-	}],
-
-
-	[{
-		"nome" : "Ponyta",
-		"nome_poder": "Flame Tail",
-		"nivel":1,
-		"xp":0,
-		"vida" : 40,
-		"vida_maxima" : 40,
-		"custo":2,
-		"poder" : 30,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Rapidash",
-		"nome_poder": "Agility",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":3,
-		"poder" : 30,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Tangela",
-		"nome_poder": "Poisonpowder",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":3,
-		"poder" : 30,
-		"defesa" : 17
-	}],
-
-
-	[{
-		"nome" : "Doduo",
-		"nome_poder": "Fury Attack",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":2,
-		"poder" : 30,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Dodrio",
-		"nome_poder": "Rage",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":3,
-		"poder" : 40,
-		"defesa" : 24
-	}],
-
-
-	[{
-		"nome" : "Koffing",
-		"nome_poder": "Foul Gas",
-		"nivel":1,
-		"xp":0,
-		"vida" : 50,
-		"vida_maxima" : 50,
-		"custo":2,
-		"poder" : 10,
-		"defesa" : 17
-	},
-	{
-		"nome" : "Weezing",
-		"nome_poder": "Selfdestruct",
-		"nivel":1,
-		"xp":0,
-		"vida" : 60,
-		"vida_maxima" : 60,
-		"custo":3,
-		"poder" : 60,
-		"defesa" : 20
-	}],
-
-
-	[{
-		"nome" : "Sandshrew",
-		"nome_poder": "Sand-attack",
-		"nivel":1,
-		"xp":0,
-		"vida" : 40,
-		"vida_maxima" : 40,
-		"custo":1,
-		"poder" : 10,
-		"defesa" : 14
-	},
-	{
-		"nome" : "Sandslash",
-		"nome_poder": "Fury Swipes",
-		"nivel":1,
-		"xp":0,
-		"vida" : 70,
-		"vida_maxima" : 70,
-		"custo":2,
-		"poder" : 40,
-		"defesa" : 24
 	}]
-
-]
+					]
