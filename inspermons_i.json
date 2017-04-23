@@ -1,0 +1,407 @@
+[
+
+	[{
+		"nome" : "Bixo",
+		"nome_poder": "Um ataque burro",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":2,
+		"poder" : 30,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Luciano",
+		"nome_poder": "Python",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":4,
+		"poder" : 60,
+		"defesa" : 27
+	}],
+
+
+
+	[{
+		"nome" : "Fernando",
+		"nome_poder": "Modernidade",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"poder" : 10,
+		"custo":2,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Super Fernando",
+		"nome_poder": "Rajada de textos gigantes",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":2,
+		"poder" : 20,
+		"defesa" : 20
+	},
+	{
+		"nome" : "Ultra Fernando",
+		"nome_poder": "Mega ultra poderoso Artigo Cientifico",
+		"nivel":1,
+		"xp":0,
+		"vida" : 90,
+		"vida_maxima" : 90,
+		"custo":3,
+		"poder" : 40,
+		"defesa" : 30
+	}],
+
+	[{
+		"nome" : "Pelicano",
+		"nome_poder": "Rajada de Tubaroes,arraias e vieiras",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":1,
+		"poder" : 10,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Super Pelicano",
+		"nome_poder": "FarmacoThermoCineticoDinamico",
+		"nivel":1,
+		"xp":0,
+		"vida" : 70,
+		"vida_maxima" : 70,
+		"custo":3,
+		"poder" : 40,
+		"defesa" : 24
+	},
+	{
+		"nome" : "Ultra Pelicano",
+		"nome_poder": "Liberdade total",
+		"nivel":1,
+		"xp":0,
+		"vida" : 100,
+		"vida_maxima" : 100,
+		"poder" : 70,
+		"custo":3,
+		"defesa" : 34
+	}],
+
+
+	[{
+		"nome" : "Lab",
+		"nome_poder": "Martelada",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":2,
+		"poder" : 20,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Fab lab",
+		"nome_poder": "Cortador laser imprimidor 3d",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":3,
+		"poder" : 30,
+		"defesa" : 20
+	},
+	{
+		"nome" : "Tech Lab",
+		"nome_poder": "Maquinas fantasticas e onde habitam",
+		"nivel":1,
+		"xp":0,
+		"vida" : 100,
+		"vida_maxima" : 100,
+		"custo":4,
+		"poder" : 60,
+		"defesa" : 34
+	}],
+
+
+	[{
+		"nome" : "Carol da Costa",
+		"nome_poder": "Raio da inteligencia",
+		"nivel":1,
+		"xp":0,
+		"vida" : 50,
+		"vida_maxima" : 50,
+		"custo":2,
+		"poder" : 10,
+		"defesa" : 17
+	},
+	{
+		"nome" : "Marcos Lisboa",
+		"nome_poder": "Um ataque misteriosamente forte",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":4,
+		"poder" : 80,
+		"defesa" : 27
+	}],
+
+
+	[{
+		"nome" : "Carareto",
+		"nome_poder": "Protoboard",
+		"nivel":1,
+		"xp":0,
+		"vida" : 30,
+		"vida_maxima" : 30,
+		"custo":1,
+		"poder" : 10,
+		"defesa" : 10
+	},
+	{
+		"nome" : "Carareto Super Sayadin",
+		"nome_poder": "Ultra mega Protoboard",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":3,
+		"poder" : 50,
+		"defesa" : 34
+	}],
+
+	[{
+		"nome" : "Sujinho",
+		"nome_poder": "Exercito de bebados ",
+		"nivel":1,
+		"xp":0,
+		"vida" : 70,
+		"vida_maxima" : 70,
+		"custo":3,
+		"poder" : 40,
+		"defesa" : 24
+	}],
+
+
+
+
+	[{
+		"nome" : "Veterano do 3 semestre",
+		"nome_poder": "O Trote",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":1,
+		"poder" : 10,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Veterano do 5 semestre",
+		"nome_poder": "Lembranças de um passado feliz",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":2,
+		"poder" : 20,
+		"defesa" : 27
+	},
+	{
+		"nome" : "Veterano do 7 semestre",
+		"nome_poder": "Aprendizado sagrado",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":3,
+		"poder" : 40,
+		"defesa" : 27
+	}],
+
+
+	[{
+		"nome" : "Cervejada",
+		"nome_poder": "Ressaca",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":1,
+		"poder" : 30,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Tequilada",
+		"nome_poder": "Mega Ressaca",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":4,
+		"poder" : 50,
+		"defesa" : 20
+	},
+	{
+		"nome" : "Insperina",
+		"nome_poder": "Ultra Mega Ressaca",
+		"nivel":1,
+		"xp":0,
+		"vida" : 90,
+		"vida_maxima" : 90,
+		"custo":3,
+		"poder" : 30,
+		"defesa" : 30
+	}],
+
+
+	[{
+		"nome" : "Marcenaria",
+		"nome_poder": "Serrote supremo",
+		"nivel":1,
+		"xp":0,
+		"vida" : 30,
+		"vida_maxima" : 30,
+		"custo":1,
+		"poder" : 10,
+		"defesa" : 10
+	},
+	{
+		"nome" : "Fresadora",
+		"nome_poder": "Cortes Precisos",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":3,
+		"poder" : 50,
+		"defesa" : 20
+	},
+	{
+		"nome" : "Cortadora Laser",
+		"nome_poder": "Super Raio de Luz cortador",
+		"nivel":1,
+		"xp":0,
+		"vida" : 80,
+		"vida_maxima" : 80,
+		"custo":3,
+		"poder" : 30,
+		"defesa" : 27
+	}],
+
+
+	[{
+		"nome" : "Cortadora de adesivos",
+		"nome_poder": "Adesivos Assassinos",
+		"nivel":1,
+		"xp":0,
+		"vida" : 120,
+		"vida_maxima" : 120,
+		"custo":4,
+		"poder" : 80,
+		"defesa" : 40
+	}],
+
+
+	[{
+		"nome" : "Impressora 3D",
+		"nome_poder": "Rajada de Impressões mal feitas",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":3,
+		"poder" : 50,
+		"defesa" : 14
+	}],
+
+
+	[{
+		"nome" : "Pouf",
+		"nome_poder": "Sono",
+		"nivel":1,
+		"xp":0,
+		"vida" : 50,
+		"vida_maxima" : 50,
+		"custo":1,
+		"poder" : 30,
+		"defesa" : 17
+	},
+	{
+		"nome" : "Sala de Descanso",
+		"nome_poder": "Dormencia Total",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":3,
+		"poder" : 50,
+		"defesa" : 20
+	}],
+
+
+	[{
+		"nome" : "Ibmec",
+		"nome_poder": "Raio de aprendizagem",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":2,
+		"poder" : 40,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Insper",
+		"nome_poder": "Ultra Raio de aprendizagem",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":4,
+		"poder" : 80,
+		"defesa" : 20
+	}],
+
+
+	[{
+		"nome" : "Protoboard",
+		"nome_poder": "Ataque de Circuitos",
+		"nivel":1,
+		"xp":0,
+		"vida" : 40,
+		"vida_maxima" : 40,
+		"custo":1,
+		"poder" : 25,
+		"defesa" : 14
+	},
+	{
+		"nome" : "Placa",
+		"nome_poder": "Ataque de Circuitos organizados",
+		"nivel":1,
+		"xp":0,
+		"vida" : 60,
+		"vida_maxima" : 60,
+		"custo":3,
+		"poder" : 40,
+		"defesa" : 20
+	},
+	{
+		"nome" : "Arduino UNO",
+		"nome_poder": "O CIRCUITO SUPREMO",
+		"nivel":1,
+		"xp":0,
+		"vida" : 90,
+		"vida_maxima" : 90,
+		"custo":4,
+		"poder" : 40,
+		"defesa" : 30
+	}]
+
+					]
