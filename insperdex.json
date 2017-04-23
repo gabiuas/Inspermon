@@ -1,8 +1,8 @@
 [
 
 	[{
-		"nome" : "Pikachu",
-		"nome_poder": "Thunder Jolt",
+		"nome" : "Bixo",
+		"nome_poder": "Um ataque burro",
 		"nivel":1,
 		"xp":0,
 		"vida" : 40,
@@ -12,8 +12,8 @@
 		"defesa" : 14
 	},
 	{
-		"nome" : "Raiochu",
-		"nome_poder": "Thunder",
+		"nome" : "Luciano",
+		"nome_poder": "Python",
 		"nivel":1,
 		"xp":0,
 		"vida" : 80,
