@@ -66,6 +66,40 @@ Decisao2=0
 
 
 
+
+clear()
+
+slow_type("""
+    Olá amigo!
+
+    Bem vindo ao mundo de Insper!!
+
+    Esse mundo é habitado por criaturas chamadas de INSPERMONS!""")
+
+clear()
+
+slow_type("""
+    
+    Para algumas pessoas os Inspermons são animais de estimação
+
+    Outros usam eles para lutar
+
+    Seu Inspermon primário é o {}""".format(inspermons_amigos[0][0][nome]))
+
+clear()
+
+slow_type("""
+    Um mundo de sonhos e aventuras com Inspermons o espera!
+    
+   !!! Vamos !!!)
+    
+
+    
+    
+    
+
+
+
 while True:
 
     achar = randint(1,15)
