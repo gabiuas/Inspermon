@@ -343,11 +343,11 @@ elif inimigo[vida]<=0:
     """.format(inimigo[nome],amigo[nome],pontos_ganhos,amigo[nivel]))
 
 
-
-    if amigo[nivel]>5:
-        slow_type("""
-    Parabéns, seu inspermon evoluiu!""")
-
+    w=0
+    for s in inspermons_inimigos[ii]:
+        inspermons_inimigos[ii][w][nivel]=1
+        w+=1
+    
     inimigo[vida]=0
     inspermons_amigos.append(inspermons_inimigos[ii])
     slow_type("""
