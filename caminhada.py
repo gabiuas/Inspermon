@@ -9,7 +9,7 @@ def slow_type(t):
         for l in t:
             sys.stdout.write(l)
             sys.stdout.flush()
-            time.sleep(0.065)
+            time.sleep(0.000000000065)
 def fast_type(t):
         for l in t:
             sys.stdout.write(l)
@@ -102,7 +102,7 @@ slow_type("""
 
 while True:
 
-    achar = randint(1,15)
+    achar = randint(1,13)
 
     clear()
             
@@ -148,13 +148,13 @@ while True:
             """ )
 
         #Batalha
-        if achar >= 1 and achar <= 8:
+        if achar >= 1 and achar <= 6:
             Decisao2 = 1
         
 
 
         #Enfermaria
-        if achar ==  9 and achar <=  11:
+        if achar ==  7 and achar <=  9:
             slow_type("""
 
         	Voce pode:
@@ -168,7 +168,7 @@ while True:
                 Decisao2 = 0
 
 
-        if achar >=12 and achar <=15:
+        if achar >=10 and achar <=13:
             slow_type("""
                   Você não Achou nada
 """)
