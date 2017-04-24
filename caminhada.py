@@ -9,7 +9,7 @@ def slow_type(t):
         for l in t:
             sys.stdout.write(l)
             sys.stdout.flush()
-            time.sleep(0.000000000065)
+            time.sleep(0.065)
 def fast_type(t):
         for l in t:
             sys.stdout.write(l)
@@ -84,15 +84,12 @@ slow_type("""
 
     Outros usam eles para lutar
 
-    Seu Inspermon primário é o {}""".format(inspermons_amigos[0][0][nome]))
+    Seu Inspermon primário é o {}
 
-clear()
-
-slow_type("""
     Um mundo de sonhos e aventuras com Inspermons o espera!
-    
-   !!! Vamos !!!""")
-    
+
+    !!! Vamos !!!""".format(inspermons_amigos[0][0][nome]))
+
 
     
     
@@ -159,7 +156,7 @@ while True:
 
         	Voce pode:
         	1 - Ir a Enfermaria
-        	0 - Continuar andando""")
+        	0 - Voltar ao menu principal""")
             D3 = int(input("""
                 <> """))
             if D3 == 1:
