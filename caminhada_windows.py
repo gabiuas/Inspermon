@@ -23,15 +23,15 @@ def clear():
 
 
 def exec_inspermon():
-    x = os.system('python inspermons.py')
+    x = os.system('python inspermons_windows.py')
     return x
 
 def exec_enfermaria():
-    x = os.system('python enfermaria.py')
+    x = os.system('python enfermaria_windows.py')
     return x
 
 def exec_batalha():
-    x = os.system('python batalha.py')
+    x = os.system('python batalha_windows.py')
     return x
 
 
