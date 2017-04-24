@@ -99,7 +99,7 @@ slow_type("""
 
 while True:
 
-    achar = randint(1,13)
+    achar = randint(1,12)
 
     clear()
             
@@ -151,7 +151,7 @@ while True:
 
 
         #Enfermaria
-        if achar ==  7 and achar <=  9:
+        if achar ==  7 and achar <=  10:
             slow_type("""
 
         	Voce pode:
@@ -165,7 +165,7 @@ while True:
                 Decisao2 = 0
 
 
-        if achar >=10 and achar <=13:
+        if achar >=11 and achar <=12:
             slow_type("""
                   Você não Achou nada
 """)
