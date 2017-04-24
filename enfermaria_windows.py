@@ -18,7 +18,7 @@ def slow_type2(t):
 
 def clear():
     time.sleep(1)
-    os.system('clear')
+    os.system('cls')
 
 with open("inspermons_amigos.json","r") as inspermons_amigos:
     inspermons_amigos = json.load(inspermons_amigos)
