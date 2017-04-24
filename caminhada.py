@@ -91,7 +91,7 @@ clear()
 slow_type("""
     Um mundo de sonhos e aventuras com Inspermons o espera!
     
-   !!! Vamos !!!)
+   !!! Vamos !!!""")
     
 
     
