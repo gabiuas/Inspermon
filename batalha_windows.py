@@ -12,11 +12,11 @@ def slow_type(t):
 
 def clear1():
     time.sleep(2)
-    os.system('clear')
+    os.system('cls')
 
 def clear():
     time.sleep(1)
-    os.system('clear')
+    os.system('cls')
 
 def esperar():
     time.sleep(3)
